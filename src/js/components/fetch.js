@@ -35,7 +35,7 @@ async function fetchInfo(endpoint, ...params) {
   }
 }
 
-// 2) Функція, що виконує парс жанрів
+// 2) Функція, що виконує парс жанрів.
 function forParseGenres(array) {
   const genres = localStorage.getItem('genres');
   const parcedGenres = JSON.parse(genres);
